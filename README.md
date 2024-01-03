@@ -1,4 +1,34 @@
-# Astro Starter Kit: Basics
+# Example Astro Site for Klaviyo Form testing
+
+## Making this your own, with Klaivyo forms
+
+Edit `./src/layouts/Layout.astro` to change the `script` tag to use your company id.
+
+```
+    <script
+      async
+      type="text/javascript"
+      src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RrGhLY"
+    ></script>
+```
+In the above snippet, change the value in the query string before running the site to get your onsite form embedded on your site.
+
+## Astro Starter Kit: Basics
+
+### 🧞 Commands - so you can just get started.
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+### Learn more about Astro
 
 ```sh
 npm create astro@latest -- --template basics
